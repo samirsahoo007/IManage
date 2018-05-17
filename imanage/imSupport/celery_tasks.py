@@ -5,8 +5,8 @@ from django.conf import settings
 import os
 　
 # set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ebi_eSupport.settings')
-app = Celery('ebi_eSupport')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'imSupport.settings')
+app = Celery('imSupport')
 　
 # Using a string here means the worker will not have to
 # pickle the object when using Windows.
